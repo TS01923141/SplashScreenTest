@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"  android:drawable="@mipmap/ic_launcher_round">
+<!-- Replace this tag -->
+<path
+    android:name="path_2"
+    android:pathData="M 31 63.928 C 31 63.928 37.4 52.928 43.1 50.828 C 50.3 48.228 69.1 49.428 69.1 49.428 L 107.2 87.528 L 107 108.928 L 75 107.928 L 31 63.928 Z"
+    android:fillColor="#00000000"
+    android:strokeWidth="1"/>
+
+    <!-- With the corresponding tag from the XML containing the gradient data -->
+    <!-- Make sure to edit the name to match the one in your animation file -->
+<path
+android:name="path_2"
+android:pathData="M 31 63.928 C 31 63.928 37.4 52.928 43.1 50.828 C 50.3 48.228 69.1 49.428 69.1 49.428 L 107.2 87.528 L 107 108.928 L 75 107.928 L 31 63.928 Z">
+<aapt:attr name="android:fillColor">
+    <gradient
+        android:endX="85.84757"
+        android:endY="92.4963"
+        android:startX="42.9492"
+        android:startY="49.59793"
+        android:type="linear">
+        <item
+            android:color="#44000000"
+            android:offset="0.0" />
+        <item
+            android:color="#00000000"
+            android:offset="1.0" />
+    </gradient>
+</aapt:attr>
+</path>
+</animated-vector>
